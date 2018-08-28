@@ -8,4 +8,4 @@ php:  #all the versions you want to test
     - composer install --no interaction
 
     script:
-      -vendor/bin/phpunit
+      - echo 'Hello, World'
